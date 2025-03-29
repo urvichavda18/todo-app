@@ -22,3 +22,18 @@ app.use("/tasks", deleteTask);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+
+
+// DB_HOST=localhost
+// DB_USER=root
+// DB_PASS=
+// DB_NAME=todo_db
+// PORT=5000
+
+
+// # add : http://localhost:5000/tasks
+// # read : http://localhost:5000/tasks
+// # update : http://localhost:5000/tasks/1
+// # delete : http://localhost:5000/tasks/1
